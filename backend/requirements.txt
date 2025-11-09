@@ -1,0 +1,33 @@
+# Core Django
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.3
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+python-jose==3.3.0
+python-dotenv==1.0.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# AI/ML
+openai>=1.0.0
+langchain==0.0.350
+sentence-transformers==2.2.2
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+python-dateutil==2.8.2
+requests==2.31.0
+python-multipart==0.0.6
+uvicorn==0.23.2
+channels==4.0.0
+channels-redis==4.1.0
+
+# Development
+pylint-django==2.5.3
+black==23.9.1
+isort==5.12.0

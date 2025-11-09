@@ -1,0 +1,54 @@
+# Core
+Django>=4.2.0,<5.0.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+django-environ>=0.10.0
+python-dotenv>=0.21.0
+
+# Database
+psycopg2-binary>=2.9.5
+
+# Authentication
+djangorestframework-simplejwt>=5.2.2
+
+# API Documentation
+drf-yasg>=1.21.4
+djangorestframework-nested-routers>=0.93.4
+
+# File Storage
+django-storages>=1.13.2
+boto3>=1.26.0
+
+# Async Support
+channels>=4.0.0
+channels-redis>=4.1.0
+
+# AI/ML
+openai>=0.27.0
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+sentence-transformers>=2.2.2
+
+# Utilities
+python-dateutil>=2.8.2
+Pillow>=9.5.0
+whitenoise>=6.4.0
+
+# Development
+ipython>=8.0.0
+python-dotenv>=0.21.0
+
+# Testing
+pytest>=7.0.0
+pytest-django>=4.5.0
+pytest-cov>=4.0.0
+factory-boy>=3.2.0
+
+# Code Quality
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+django-stubs>=1.14.0
+drf-stubs>=1.8.0
